@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![Dependencies][deps-image]][deps-url] [![devDependencies][deps-dev-image]][deps-dev-url] [![peerDependencies][deps-peer-image]][deps-peer-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] ![Code Style][codestyle-image]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![Dependencies][deps-image]][deps-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] ![Code Style][codestyle-image]
 
 # eslint-config-base
 
@@ -18,7 +18,7 @@ Additionally:
 
 - line length 120 characters
 - disallow usage of Lodash/Underscore ([eslint-plugin-you-dont-need-lodash-underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#readme))
-- apply rules for eslint comments [eslint-plugin-eslint-comments]https://github.com/mysticatea/eslint-plugin-eslint-comments#readme))
+- apply rules for eslint comments ([eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments#readme))
 - apply rules of promises ([eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise#readme)).
 
 ## Configurations
@@ -81,12 +81,6 @@ MIT © 2019 [Jens Simon](https://github.com/jenssimon)
 
 [deps-url]: https://david-dm.org/jenssimon/eslint-config-base
 [deps-image]: https://badgen.net/david/dep/jenssimon/eslint-config-base
-
-[deps-dev-url]: https://david-dm.org/jenssimon/eslint-config-base?type=dev
-[deps-dev-image]: https://badgen.net/david/dev/jenssimon/eslint-config-base
-
-[deps-peer-url]: https://david-dm.org/jenssimon/eslint-config-base?type=peer
-[deps-peer-image]: https://badgen.net/david/peer/jenssimon/eslint-config-base
 
 [gh-url]: https://github.com/jenssimon/eslint-config-base
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/eslint-config-base
