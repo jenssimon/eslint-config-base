@@ -1,4 +1,4 @@
-[![NPM version](https://badgen.net/npm/v/@jenssimon/eslint-config-base)](https://www.npmjs.com/package/@jenssimon/eslint-config-base) [![Downloads](https://badgen.net/npm/dt/@jenssimon/eslint-config-base)](https://www.npmjs.com/package/@jenssimon/eslint-config-base) ![Dependencies](https://badgen.net/david/dep/jenssimon/eslint-config-base) ![peerDependencies](https://badgen.net/david/peer/jenssimon/eslint-config-base) ![devDependencies](https://badgen.net/david/dev/jenssimon/eslint-config-base) [![star this repo](https://badgen.net/github/stars/jenssimon/eslint-config-base)](https://github.com/jenssimon/eslint-config-base) [![fork this repo](https://badgen.net/github/forks/jenssimon/eslint-config-base)](https://github.com/jenssimon/eslint-config-base) ![Code Style](https://badgen.net/badge/code%20style/airbnb/f2a)
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![Dependencies][deps-image]][deps-url] [![devDependencies][deps-dev-image]][deps-dev-url] [![peerDependencies][deps-peer-image]][deps-peer-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] ![Code Style][codestyle-image]
 
 # eslint-config-base
 
@@ -62,3 +62,22 @@ Rules for frontend code that typically uses React. Like the standard frontend ru
 ## License
 
 MIT © 2019 [Jens Simon](https://github.com/jenssimon)
+
+[npm-url]: https://www.npmjs.com/package/@jenssimon/eslint-config-base
+[npm-image]: https://badgen.net/npm/v/@jenssimon/eslint-config-base
+[npm-downloads-image]: https://badgen.net/npm/dt/@jenssimon/eslint-config-base
+
+[deps-url]: https://david-dm.org/jenssimon/eslint-config-base
+[deps-image]: https://badgen.net/david/dep/jenssimon/eslint-config-base
+
+[deps-dev-url]: https://david-dm.org/jenssimon/eslint-config-base?type=dev
+[deps-dev-image]: https://badgen.net/david/dev/jenssimon/eslint-config-base
+
+[deps-peer-url]: https://david-dm.org/jenssimon/eslint-config-base?type=peer
+[deps-peer-image]: https://badgen.net/david/peer/jenssimon/eslint-config-base
+
+[gh-url]: https://github.com/jenssimon/eslint-config-base
+[gh-stars-image]: https://badgen.net/github/stars/jenssimon/eslint-config-base
+[gh-forks-image]: https://badgen.net/github/forks/jenssimon/eslint-config-base
+
+[codestyle-image]: https://badgen.net/badge/code%20style/airbnb/f2a
