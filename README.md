@@ -59,6 +59,18 @@ Rules for frontend code that typically uses React. Like the standard frontend ru
 }
 ```
 
+### Frontend Legacy (ES5)
+
+This configuration is meant for use with ES5 code and also allows jQuery.
+
+```json
+{
+  "extends": [
+    "@jenssimon/base/frontend/legacy"
+  ]
+}
+```
+
 ## License
 
 MIT © 2019 [Jens Simon](https://github.com/jenssimon)
