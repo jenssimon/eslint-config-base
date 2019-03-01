@@ -54,7 +54,7 @@ Rules for frontend code that typically uses React. Like the standard frontend ru
 ```json
 {
   "extends": [
-    "@jenssimon/base/frontend/modern"
+    "@jenssimon/base/frontend-modern"
   ]
 }
 ```
@@ -66,7 +66,7 @@ This configuration is meant for use with ES5 code and also allows jQuery.
 ```json
 {
   "extends": [
-    "@jenssimon/base/frontend/legacy"
+    "@jenssimon/base/frontend-legacy"
   ]
 }
 ```
