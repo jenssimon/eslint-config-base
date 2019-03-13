@@ -29,6 +29,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.5.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.4.0"
   },
   "peerDependencies": {
@@ -42,6 +43,7 @@
     "eslint-plugin-jest": ">=22.3.2",
     "eslint-plugin-jquery": ">=1.5.0",
     "eslint-plugin-promise": ">=4.0.1",
+    "eslint-plugin-react-hooks": ">=1.5.0",
     "eslint-plugin-you-dont-need-lodash-underscore": ">=6.4.0"
   },
   "private": false
