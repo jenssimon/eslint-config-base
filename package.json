@@ -18,19 +18,20 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.2.2",
+    "eslint": "^6.3.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-dollar-sign": "^1.0.2",
     "eslint-plugin-eslint-comments": "^3.1.2",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.15.2",
+    "eslint-plugin-jest": "^22.16.0",
     "eslint-plugin-jquery": "^1.5.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-optimize-regex": "^1.1.6",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
-    "eslint-plugin-you-dont-need-lodash-underscore": "^6.6.0"
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.7.0"
   },
   "peerDependencies": {
     "babel-eslint": ">=10.0.1",
@@ -42,6 +43,7 @@
     "eslint-plugin-import": ">=2.16.0",
     "eslint-plugin-jest": ">=22.3.2",
     "eslint-plugin-jquery": ">=1.5.0",
+    "eslint-plugin-optimize-regex": "^1.1.6",
     "eslint-plugin-promise": ">=4.0.1",
     "eslint-plugin-react-hooks": ">=1.5.0",
     "eslint-plugin-you-dont-need-lodash-underscore": ">=6.4.0"
