@@ -73,7 +73,7 @@ This configuration is meant for use with ES5 code and also allows jQuery.
 
 ## License
 
-MIT © 2019 [Jens Simon](https://github.com/jenssimon)
+MIT © 2020 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/@jenssimon/eslint-config-base
 [npm-image]: https://badgen.net/npm/v/@jenssimon/eslint-config-base
