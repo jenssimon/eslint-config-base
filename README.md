@@ -77,7 +77,7 @@ MIT © 2020 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/@jenssimon/eslint-config-base
 [npm-image]: https://badgen.net/npm/v/@jenssimon/eslint-config-base
-[npm-downloads-image]: https://badgen.net/npm/dt/@jenssimon/eslint-config-base
+[npm-downloads-image]: https://badgen.net/npm/dw/@jenssimon/eslint-config-base
 
 [deps-url]: https://david-dm.org/jenssimon/eslint-config-base
 [deps-image]: https://badgen.net/david/dep/jenssimon/eslint-config-base
