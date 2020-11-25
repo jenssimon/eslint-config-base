@@ -4,10 +4,13 @@
 
 > A collection of shareable ESLint configurations for both client and server side code
 
+⚠️⚠️⚠️ VERSION 3 STOPS SUPPORT FOR `frontend/legacy` CONFIGURATION. CHECKS FOR JQUERY OR UNDERSCORE/LODASH ARE REMOVED. WE ARE IN 2020 AND WE DON'T HAVE TO CARE ABOUT SUCH THINGS. ADDITIONALLY THE `frontend/modern` CONFIG WAS RENAMED TO `frontend/react`. ⚠️⚠️⚠️
+
 ## Installation
 
 ```sh
 $ yarn add @jenssimon/eslint-config-base
+$ npx install-peerdeps --dev @jenssimon/eslint-config-base
 ```
 
 ## General
