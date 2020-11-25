@@ -20,9 +20,9 @@ All configurations are based on the [Airbnb JavaScript Style Guide](https://gith
 Additionally:
 
 - line length 120 characters
-- disallow usage of Lodash/Underscore ([eslint-plugin-you-dont-need-lodash-underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore#readme))
 - apply rules for eslint comments ([eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments#readme))
 - apply rules of promises ([eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise#readme)).
+- apply SonarJS rules ([eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs#readme))
 
 ## Configurations
 
