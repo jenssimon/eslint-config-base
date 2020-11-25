@@ -47,26 +47,14 @@ Standard rules for frontend code (without React/JSX). Enforces ES2015+ code with
 }
 ```
 
-### Frontend Modern
+### Frontend React
 
 Rules for frontend code that typically uses React. Like the standard frontend rules it enforces ES2015+ code. Based on [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb#readme).
 
 ```json
 {
   "extends": [
-    "@jenssimon/base/frontend-modern"
-  ]
-}
-```
-
-### Frontend Legacy (ES5)
-
-This configuration is meant for use with ES5 code and also allows jQuery.
-
-```json
-{
-  "extends": [
-    "@jenssimon/base/frontend-legacy"
+    "@jenssimon/base/frontend-react"
   ]
 }
 ```
