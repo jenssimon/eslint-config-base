@@ -1,18 +1,13 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![Dependencies][deps-image]][deps-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][travis-image]][travis-url] ![Code Style][codestyle-image]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][travis-image]][travis-url] ![Code Style][codestyle-image]
 
 # eslint-config-base
 
 > A collection of shareable ESLint configurations for both client and server side code
 
-WITH VERSION 4 ALL PLUGINS ARE DEFINED AS DEPENDENCIES (NO PEERDEPENDENCIES ANYMORE). YOU CAN REMOVE THE PLUGINS FROM YOUR PROJECTS.
-
-⚠️⚠️⚠️ VERSION 3 STOPS SUPPORT FOR `frontend/legacy` CONFIGURATION. CHECKS FOR JQUERY OR UNDERSCORE/LODASH ARE REMOVED. WE ARE IN 2020 AND WE DON'T HAVE TO CARE ABOUT SUCH THINGS. ADDITIONALLY THE `frontend/modern` CONFIG WAS RENAMED TO `frontend/react`. ⚠️⚠️⚠️
-
 ## Installation
 
 ```sh
-$ yarn add @jenssimon/eslint-config-base
-$ npx install-peerdeps --dev @jenssimon/eslint-config-base
+$ yarn add @jenssimon/eslint-config-base --dev
 ```
 
 ## General
@@ -66,14 +61,11 @@ Rules for frontend code that typically uses React. Like the standard frontend ru
 
 ## License
 
-MIT © 2020 [Jens Simon](https://github.com/jenssimon)
+MIT © 2021 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/@jenssimon/eslint-config-base
 [npm-image]: https://badgen.net/npm/v/@jenssimon/eslint-config-base
 [npm-downloads-image]: https://badgen.net/npm/dw/@jenssimon/eslint-config-base
-
-[deps-url]: https://david-dm.org/jenssimon/eslint-config-base
-[deps-image]: https://badgen.net/david/dep/jenssimon/eslint-config-base
 
 [gh-url]: https://github.com/jenssimon/eslint-config-base
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/eslint-config-base
