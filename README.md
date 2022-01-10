@@ -61,7 +61,7 @@ Rules for frontend code that typically uses React. Like the standard frontend ru
 
 ## License
 
-MIT © 2021 [Jens Simon](https://github.com/jenssimon)
+MIT © 2022 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/@jenssimon/eslint-config-base
 [npm-image]: https://badgen.net/npm/v/@jenssimon/eslint-config-base
