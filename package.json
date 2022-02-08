@@ -31,7 +31,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-react-redux": "^3.3.4",
+    "eslint-plugin-react-redux": "^4.0.0",
     "eslint-plugin-sonarjs": "^0.11.0"
   },
   "devDependencies": {
