@@ -14,7 +14,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --fix ./"
+    "lint": "eslint --fix ./",
+    "ci": "run-s \"ci:*\"",
+    "ci:lint": "eslint ./"
   },
   "dependencies": {
     "@babel/core": "^7.17.5",
@@ -35,7 +37,8 @@
     "eslint-plugin-sonarjs": "^0.12.0"
   },
   "devDependencies": {
-    "eslint": "8.10.0"
+    "eslint": "8.10.0",
+    "npm-run-all": "4.1.5"
   },
   "peerDependencies": {
     "eslint": "^7.32.0 || ^8.2.0"
