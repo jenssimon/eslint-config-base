@@ -15,8 +15,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --fix ./",
-    "ci": "run-s \"ci:*\"",
-    "ci:lint": "eslint ./"
+    "ci-test": "run-s \"ci-test:*\"",
+    "ci-test:lint": "eslint ./"
   },
   "dependencies": {
     "@babel/core": "^7.17.10",
