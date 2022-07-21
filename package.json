@@ -60,7 +60,7 @@
       "./index.js"
     ]
   },
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "yarn@3.2.2",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
