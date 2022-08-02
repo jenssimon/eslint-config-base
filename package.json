@@ -39,7 +39,8 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-redux": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.14.0"
+    "eslint-plugin-sonarjs": "^0.14.0",
+    "eslint-plugin-unicorn": "^43.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.3",
@@ -58,7 +59,10 @@
   "eslintConfig": {
     "extends": [
       "./index.js"
-    ]
+    ],
+    "rules": {
+      "unicorn/prefer-module": "off"
+    }
   },
   "packageManager": "yarn@3.2.2",
   "config": {
