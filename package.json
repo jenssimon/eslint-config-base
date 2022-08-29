@@ -13,6 +13,12 @@
     "url": "https://github.com/jenssimon/eslint-config-base"
   },
   "license": "MIT",
+  "files": [
+    "/index.js",
+    "/frontend.js",
+    "/frontend-react.js",
+    "/lib"
+  ],
   "scripts": {
     "lint": "eslint --fix ./",
     "ci-test": "run-s \"ci-test:*\"",
