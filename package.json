@@ -63,6 +63,9 @@
   "peerDependencies": {
     "eslint": "^7.32.0 || ^8.2.0"
   },
+  "resolutions": {
+    "minimist": "1.2.6"
+  },
   "eslintConfig": {
     "extends": [
       "./index.js"
