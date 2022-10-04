@@ -54,7 +54,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:^7.19.1":
+"@babel/eslint-parser@npm:7.19.1":
   version: 7.19.1
   resolution: "@babel/eslint-parser@npm:7.19.1"
   dependencies:
@@ -548,27 +548,27 @@ __metadata:
   resolution: "@jenssimon/eslint-config-base@workspace:."
   dependencies:
     "@babel/core": ^7.19.1
-    "@babel/eslint-parser": ^7.19.1
+    "@babel/eslint-parser": 7.19.1
     "@commitlint/cli": 17.1.2
     "@commitlint/config-conventional": 17.1.0
     commitizen: 4.2.5
     cz-conventional-changelog: 3.3.0
     eslint: 8.24.0
-    eslint-config-airbnb: ^19.0.4
-    eslint-config-airbnb-base: ^15.0.0
-    eslint-import-resolver-node: ^0.3.6
-    eslint-plugin-babel: ^5.3.1
-    eslint-plugin-eslint-comments: ^3.2.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-jest: ^27.0.4
-    eslint-plugin-jsx-a11y: ^6.6.1
-    eslint-plugin-optimize-regex: ^1.2.1
-    eslint-plugin-promise: ^6.0.1
-    eslint-plugin-react: ^7.31.8
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-react-redux: ^4.0.0
-    eslint-plugin-sonarjs: ^0.15.0
-    eslint-plugin-unicorn: ^44.0.0
+    eslint-config-airbnb: 19.0.4
+    eslint-config-airbnb-base: 15.0.0
+    eslint-import-resolver-node: 0.3.6
+    eslint-plugin-babel: 5.3.1
+    eslint-plugin-eslint-comments: 3.2.0
+    eslint-plugin-import: 2.26.0
+    eslint-plugin-jest: 27.0.4
+    eslint-plugin-jsx-a11y: 6.6.1
+    eslint-plugin-optimize-regex: 1.2.1
+    eslint-plugin-promise: 6.0.1
+    eslint-plugin-react: 7.31.8
+    eslint-plugin-react-hooks: 4.6.0
+    eslint-plugin-react-redux: 4.0.0
+    eslint-plugin-sonarjs: 0.15.0
+    eslint-plugin-unicorn: 44.0.0
     husky: 8.0.1
     lint-staged: 13.0.3
     npm-run-all: 4.1.5
@@ -2646,7 +2646,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-base@npm:^15.0.0":
+"eslint-config-airbnb-base@npm:15.0.0, eslint-config-airbnb-base@npm:^15.0.0":
   version: 15.0.0
   resolution: "eslint-config-airbnb-base@npm:15.0.0"
   dependencies:
@@ -2661,7 +2661,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb@npm:^19.0.4":
+"eslint-config-airbnb@npm:19.0.4":
   version: 19.0.4
   resolution: "eslint-config-airbnb@npm:19.0.4"
   dependencies:
@@ -2678,7 +2678,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.6":
+"eslint-import-resolver-node@npm:0.3.6, eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6"
   dependencies:
@@ -2700,7 +2700,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-babel@npm:^5.3.1":
+"eslint-plugin-babel@npm:5.3.1":
   version: 5.3.1
   resolution: "eslint-plugin-babel@npm:5.3.1"
   dependencies:
@@ -2711,7 +2711,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-eslint-comments@npm:^3.2.0":
+"eslint-plugin-eslint-comments@npm:3.2.0":
   version: 3.2.0
   resolution: "eslint-plugin-eslint-comments@npm:3.2.0"
   dependencies:
@@ -2723,7 +2723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.26.0":
+"eslint-plugin-import@npm:2.26.0":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
   dependencies:
@@ -2746,7 +2746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^27.0.4":
+"eslint-plugin-jest@npm:27.0.4":
   version: 27.0.4
   resolution: "eslint-plugin-jest@npm:27.0.4"
   dependencies:
@@ -2763,7 +2763,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:^6.6.1":
+"eslint-plugin-jsx-a11y@npm:6.6.1":
   version: 6.6.1
   resolution: "eslint-plugin-jsx-a11y@npm:6.6.1"
   dependencies:
@@ -2786,7 +2786,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-optimize-regex@npm:^1.2.1":
+"eslint-plugin-optimize-regex@npm:1.2.1":
   version: 1.2.1
   resolution: "eslint-plugin-optimize-regex@npm:1.2.1"
   dependencies:
@@ -2795,7 +2795,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:^6.0.1":
+"eslint-plugin-promise@npm:6.0.1":
   version: 6.0.1
   resolution: "eslint-plugin-promise@npm:6.0.1"
   peerDependencies:
@@ -2804,7 +2804,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.6.0":
+"eslint-plugin-react-hooks@npm:4.6.0":
   version: 4.6.0
   resolution: "eslint-plugin-react-hooks@npm:4.6.0"
   peerDependencies:
@@ -2813,7 +2813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-redux@npm:^4.0.0":
+"eslint-plugin-react-redux@npm:4.0.0":
   version: 4.0.0
   resolution: "eslint-plugin-react-redux@npm:4.0.0"
   dependencies:
@@ -2826,7 +2826,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.28.0, eslint-plugin-react@npm:^7.31.8":
+"eslint-plugin-react@npm:7.31.8, eslint-plugin-react@npm:^7.28.0":
   version: 7.31.8
   resolution: "eslint-plugin-react@npm:7.31.8"
   dependencies:
@@ -2850,7 +2850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:^0.15.0":
+"eslint-plugin-sonarjs@npm:0.15.0":
   version: 0.15.0
   resolution: "eslint-plugin-sonarjs@npm:0.15.0"
   peerDependencies:
@@ -2859,7 +2859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^44.0.0":
+"eslint-plugin-unicorn@npm:44.0.0":
   version: 44.0.0
   resolution: "eslint-plugin-unicorn@npm:44.0.0"
   dependencies:
