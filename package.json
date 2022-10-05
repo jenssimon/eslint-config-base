@@ -74,7 +74,7 @@
   "lint-staged": {
     "**/*.{js,ts}": "eslint"
   },
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "yarn@3.2.4",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
