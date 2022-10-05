@@ -15,7 +15,14 @@
         "digest"
       ],
       "automerge": true,
-      "automergeType": "branch"
+      "automergeType": "branch",
+      "excludePackageNames": [
+        "eslint-import-resolver-node"
+      ],
+      "excludePackagePrefixes": [
+        "eslint-config-",
+        "eslint-plugin-"
+      ]
     }
   ]
 }

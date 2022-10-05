@@ -54,7 +54,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.19.1":
+"@babel/eslint-parser@npm:^7.19.1":
   version: 7.19.1
   resolution: "@babel/eslint-parser@npm:7.19.1"
   dependencies:
@@ -548,7 +548,7 @@ __metadata:
   resolution: "@jenssimon/eslint-config-base@workspace:."
   dependencies:
     "@babel/core": ^7.19.1
-    "@babel/eslint-parser": 7.19.1
+    "@babel/eslint-parser": ^7.19.1
     "@commitlint/cli": 17.1.2
     "@commitlint/config-conventional": 17.1.0
     commitizen: 4.2.5
