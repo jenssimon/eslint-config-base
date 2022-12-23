@@ -17,6 +17,7 @@
     "/index.js",
     "/frontend.js",
     "/frontend-react.js",
+    "/frontend-lit.js",
     "/lib"
   ],
   "scripts": {
