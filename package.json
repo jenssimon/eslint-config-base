@@ -46,7 +46,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-redux": "4.0.0",
     "eslint-plugin-sonarjs": "0.18.0",
-    "eslint-plugin-unicorn": "45.0.2",
+    "eslint-plugin-unicorn": "46.0.0",
     "eslint-plugin-wc": "1.4.0"
   },
   "devDependencies": {
