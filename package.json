@@ -50,7 +50,7 @@
     "eslint-plugin-wc": "1.4.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.5.0",
+    "@commitlint/cli": "17.5.1",
     "@commitlint/config-conventional": "17.4.4",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
