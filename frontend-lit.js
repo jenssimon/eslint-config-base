@@ -1,1 +1,1 @@
-module.exports = require('./lib/frontend/lit')
+module.exports = require('./lib/frontend/lit');

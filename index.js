@@ -1,4 +1,4 @@
-const commonConfig = require('./lib/common')
+const commonConfig = require('./lib/common');
 
 module.exports = commonConfig({
   extends: [
@@ -14,4 +14,4 @@ module.exports = commonConfig({
       },
     ],
   },
-})
+});
