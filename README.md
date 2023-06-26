@@ -17,9 +17,25 @@ All configurations are based on the [Airbnb JavaScript Style Guide](https://gith
 Additionally:
 
 - line length 120 characters
+- no semicolons
 - apply rules for eslint comments ([eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments#readme))
 - apply rules of promises ([eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise#readme)).
 - apply SonarJS rules ([eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs#readme))
+
+> **Note:**
+>
+> If you don't trust ASI and still want to use semicolons:
+>
+> ```json
+> {
+>   "extends": [
+>     "@jenssimon/base",
+>   ]
+>   "rules": {
+>     "semi": ["error", "always"]
+>   }
+> }
+> ```
 
 ## Configurations
 
