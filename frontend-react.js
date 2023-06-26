@@ -1,1 +1,1 @@
-module.exports = require('./lib/frontend/react');
+module.exports = require('./lib/frontend/react')
