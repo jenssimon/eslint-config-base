@@ -22,7 +22,7 @@ Additionally:
 - apply rules of promises ([eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise#readme)).
 - apply SonarJS rules ([eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs#readme))
 
-> **Note:**
+> **Note**
 >
 > If you don't trust ASI and still want to use semicolons:
 >
