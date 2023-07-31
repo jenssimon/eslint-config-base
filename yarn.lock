@@ -455,6 +455,7 @@ __metadata:
     eslint-plugin-babel: 5.3.1
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-import: 2.28.0
+    eslint-plugin-import-esm: ^1.2.1
     eslint-plugin-jest: 27.2.3
     eslint-plugin-jsx-a11y: 6.7.1
     eslint-plugin-lit: 1.8.3
@@ -2874,6 +2875,15 @@ __metadata:
   peerDependencies:
     eslint: ">=4.19.1"
   checksum: c9fe273dd56699abdf7e416cfad0344eb50aa01564a5a9133e72d982defb89310bc2e9b0b148ce19c5190d7ff641223b0ba9e667a194bc48467c3dd0d471e657
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-import-esm@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "eslint-plugin-import-esm@npm:1.2.1"
+  peerDependencies:
+    eslint: ">=7"
+  checksum: 9af9e2f619b43c1f4bea26a8c636ad477f2e9f72935b114d51ff17388854fc78c521a1b6b768a88bd4b5766344bfe5e5bc7e25f4b7cd23d23592ef5eb7301047
   languageName: node
   linkType: hard
 
