@@ -7,7 +7,7 @@
 ## Installation
 
 ```sh
-$ yarn add @jenssimon/eslint-config-base --dev
+yarn add @jenssimon/eslint-config-base --dev
 ```
 
 ## General
@@ -18,9 +18,10 @@ Additionally:
 
 - line length 120 characters
 - no semicolons
-- apply rules for eslint comments ([eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments#readme))
-- apply rules of promises ([eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise#readme)).
-- apply SonarJS rules ([eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs#readme))
+- [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn#readme)
+- [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs#readme)
+- [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise#readme)
+- [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments#readme)
 
 > **Note**
 >
@@ -89,7 +90,7 @@ Rules for frontend code that typically uses React. Like the standard frontend ru
 
 ## License
 
-MIT © 2022 [Jens Simon](https://github.com/jenssimon)
+MIT © 2023 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/@jenssimon/eslint-config-base
 [npm-image]: https://badgen.net/npm/v/@jenssimon/eslint-config-base
@@ -98,4 +99,4 @@ MIT © 2022 [Jens Simon](https://github.com/jenssimon)
 [gh-url]: https://github.com/jenssimon/eslint-config-base
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/eslint-config-base
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/eslint-config-base
-[gh-status-image]: https://badgen.net/github/status/jenssimon/eslint-config-base
+[gh-status-image]: https://github.com/jenssimon/eslint-config-base/actions/workflows/ci.yml/badge.svg
