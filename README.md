@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][gh-status-image]][gh-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][gh-status-image]][gh-status-url]
 
 # eslint-config-base
 
@@ -97,6 +97,7 @@ MIT © 2023 [Jens Simon](https://github.com/jenssimon)
 [npm-downloads-image]: https://badgen.net/npm/dw/@jenssimon/eslint-config-base
 
 [gh-url]: https://github.com/jenssimon/eslint-config-base
+[gh-status-url]: https://github.com/jenssimon/eslint-config-base/actions/workflows/ci.yml
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/eslint-config-base
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/eslint-config-base
 [gh-status-image]: https://github.com/jenssimon/eslint-config-base/actions/workflows/ci.yml/badge.svg
