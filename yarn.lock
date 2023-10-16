@@ -55,7 +55,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^17.6.7":
+"@commitlint/cli@npm:^17.8.0":
   version: 17.8.0
   resolution: "@commitlint/cli@npm:17.8.0"
   dependencies:
@@ -75,7 +75,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^17.6.7":
+"@commitlint/config-conventional@npm:^17.8.0":
   version: 17.8.0
   resolution: "@commitlint/config-conventional@npm:17.8.0"
   dependencies:
@@ -375,11 +375,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jenssimon/eslint-config-base@workspace:."
   dependencies:
-    "@commitlint/cli": ^17.6.7
-    "@commitlint/config-conventional": ^17.6.7
+    "@commitlint/cli": ^17.8.0
+    "@commitlint/config-conventional": ^17.8.0
     commitizen: ^4.3.0
     cz-conventional-changelog: ^3.3.0
-    eslint: ^8.46.0
+    eslint: ^8.51.0
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-base: ^15.0.0
     eslint-import-resolver-node: ^0.3.8
@@ -399,10 +399,10 @@ __metadata:
     eslint-plugin-unicorn: ^48.0.1
     eslint-plugin-wc: ^2.0.0
     husky: ^8.0.3
-    lint-staged: ^15.0.0
+    lint-staged: ^15.0.1
     npm-run-all: ^4.1.5
     pinst: ^3.0.0
-    semantic-release: ^22.0.0
+    semantic-release: ^22.0.5
   peerDependencies:
     eslint: ^7.32.0 || ^8.2.0
   languageName: unknown
@@ -2987,7 +2987,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.46.0":
+"eslint@npm:^8.51.0":
   version: 8.51.0
   resolution: "eslint@npm:8.51.0"
   dependencies:
@@ -4959,9 +4959,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^15.0.0":
-  version: 15.0.0
-  resolution: "lint-staged@npm:15.0.0"
+"lint-staged@npm:^15.0.1":
+  version: 15.0.1
+  resolution: "lint-staged@npm:15.0.1"
   dependencies:
     chalk: 5.3.0
     commander: 11.1.0
@@ -4975,7 +4975,7 @@ __metadata:
     yaml: 2.3.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 8d1a0621db9ea281c3cadacd0156edd45748f74ba9b9baeb734feacef96e52b23d801c76d24116b076e1489037f005cd12695458d82d060a69e2bb2cfd830713
+  checksum: 4ef972b8fb246fa047e2f819833e675a816bfe1dd1fa4130d1b75cb6af2a51abc54eb7047a7b82403d9d4f8aefe1e71532a999161d180fb5ec019d360988b7bf
   languageName: node
   linkType: hard
 
@@ -7109,7 +7109,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^22.0.0":
+"semantic-release@npm:^22.0.5":
   version: 22.0.5
   resolution: "semantic-release@npm:22.0.5"
   dependencies:
