@@ -2976,15 +2976,15 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-lit@npm:^1.9.1":
-  version: 1.9.1
-  resolution: "eslint-plugin-lit@npm:1.9.1"
+  version: 1.10.0
+  resolution: "eslint-plugin-lit@npm:1.10.0"
   dependencies:
     parse5: "npm:^6.0.1"
     parse5-htmlparser2-tree-adapter: "npm:^6.0.1"
     requireindex: "npm:^1.2.0"
   peerDependencies:
     eslint: ">= 5"
-  checksum: fb556a717e7e5e98c5b9fdc6bbff6afcb6f71b118f8a41d4f2ec800637cbb011ad481051f3b2b216f69cd92bc964b1527d5ffd76f58daa6d2b535e75e7efdc39
+  checksum: 9436c0982e6b21dba9bc12c6bdc1a544ada8b6416d0bc7f974e9c24c0e5466f66f19159d66e4092d445f6a1c16f7dff5c1a5d0f56c40f690e35085533e6aa43c
   languageName: node
   linkType: hard
 
