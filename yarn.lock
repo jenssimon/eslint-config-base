@@ -440,7 +440,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-react-redux: "npm:^4.0.0"
-    eslint-plugin-sonarjs: "npm:^0.21.0"
+    eslint-plugin-sonarjs: "npm:^0.22.0"
     eslint-plugin-unicorn: "npm:^49.0.0"
     eslint-plugin-wc: "npm:^2.0.4"
     husky: "npm:^8.0.3"
@@ -3072,12 +3072,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "eslint-plugin-sonarjs@npm:0.21.0"
+"eslint-plugin-sonarjs@npm:^0.22.0":
+  version: 0.22.0
+  resolution: "eslint-plugin-sonarjs@npm:0.22.0"
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 6377b43ed2e65ef3b3b1fff2de27603beed1d411b03a8669479fdfbdc76bff4f1392a004e792e6130e0e273121927532e792e11262f2fa640e99e26c6246ef8c
+  checksum: 1dc305acc84a9e78fce08f654c8818dc91dd6b821af79a7c4fb99efb6a5f1937fabd6516ff7d1bbcac5b2f111d8ee70dc75b548b77f3199b1af0f2a0808953bc
   languageName: node
   linkType: hard
 
