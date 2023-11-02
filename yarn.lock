@@ -3067,15 +3067,15 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-react-redux@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "eslint-plugin-react-redux@npm:4.0.0"
+  version: 4.1.0
+  resolution: "eslint-plugin-react-redux@npm:4.1.0"
   dependencies:
     eslint-plugin-react: "npm:^7.28.0"
     eslint-rule-composer: "npm:^0.3.0"
   peerDependencies:
     eslint: ^7 || ^8
     eslint-plugin-react: ^7.28.0
-  checksum: 2825650215c08ed76695331266cebcbbcf348a07976feb2528bb36ecfbf5bd737a72f9dc6fe1ee781ccbe7f7e0f30ac1a940b92bed963e098dfc7e0e82f18f9e
+  checksum: d26dc8c187525393426ee7c610091dfcf0d7e16ef014029544ba08dbfac36263d1e5c3fd1968f5fb126934df020d070f0963490b23aaa447e6865105f4ba3bd3
   languageName: node
   linkType: hard
 
