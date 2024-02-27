@@ -21,7 +21,7 @@
     "/lib"
   ],
   "scripts": {
-    "lint": "eslint --ext .js,.ts,.cjs,.mjs,.cts,.mts ./",
+    "lint": "eslint ./",
     "commit": "cz",
     "postinstall": "husky",
     "prepack": "pinst --disable",
