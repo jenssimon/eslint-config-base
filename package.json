@@ -58,7 +58,7 @@
     "lint-staged": "^15.0.2",
     "npm-run-all2": "^6.0.0",
     "pinst": "^3.0.0",
-    "semantic-release": "^23.0.0"
+    "semantic-release": "^24.0.0"
   },
   "peerDependencies": {
     "eslint": "^7.32.0 || ^8.2.0"
