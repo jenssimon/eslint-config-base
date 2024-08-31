@@ -3096,19 +3096,19 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-react-redux@npm:^4.0.0":
-  version: 4.1.0
-  resolution: "eslint-plugin-react-redux@npm:4.1.0"
+  version: 4.2.0
+  resolution: "eslint-plugin-react-redux@npm:4.2.0"
   dependencies:
-    eslint-plugin-react: "npm:^7.28.0"
+    eslint-plugin-react: "npm:^7.35.0"
     eslint-rule-composer: "npm:^0.3.0"
   peerDependencies:
-    eslint: ^7 || ^8
-    eslint-plugin-react: ^7.28.0
-  checksum: 10c0/d26dc8c187525393426ee7c610091dfcf0d7e16ef014029544ba08dbfac36263d1e5c3fd1968f5fb126934df020d070f0963490b23aaa447e6865105f4ba3bd3
+    eslint: ^7 || ^8 || ^9.7
+    eslint-plugin-react: ^7.35.0
+  checksum: 10c0/70da7fa9e0f3924f29a7e52d272ec00259b8673b5e39a376cdfd73deb5906113259c8d21a765886bf58e757a22e3dfe47fd8ed743ecb2a79f210d14fe5d8d603
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.28.0, eslint-plugin-react@npm:^7.33.2":
+"eslint-plugin-react@npm:^7.33.2, eslint-plugin-react@npm:^7.35.0":
   version: 7.35.0
   resolution: "eslint-plugin-react@npm:7.35.0"
   dependencies:
