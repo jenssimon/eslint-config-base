@@ -3065,15 +3065,15 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-lit@npm:^1.9.1":
-  version: 1.14.0
-  resolution: "eslint-plugin-lit@npm:1.14.0"
+  version: 1.15.0
+  resolution: "eslint-plugin-lit@npm:1.15.0"
   dependencies:
     parse5: "npm:^6.0.1"
     parse5-htmlparser2-tree-adapter: "npm:^6.0.1"
     requireindex: "npm:^1.2.0"
   peerDependencies:
     eslint: ">= 5"
-  checksum: 10c0/0a0ca09501936676a6266624c3d4edc30408857b10840cf989b2640205f95bb09f3ad14a8076b6579f414dd1afbe78ad3ad69232073de7be976e2017e13fd5b0
+  checksum: 10c0/243ce44e9923c343760b2ca21bfc67cc3857b93ef2dd2dac06ca3e894d6fa1fbf50ab1aaec0278ef5c53b3a47fc9145d1dcd4791650e2cabdba89874457e99b4
   languageName: node
   linkType: hard
 
