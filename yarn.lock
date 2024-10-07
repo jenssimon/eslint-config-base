@@ -3195,14 +3195,14 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-wc@npm:^2.0.4":
-  version: 2.1.1
-  resolution: "eslint-plugin-wc@npm:2.1.1"
+  version: 2.2.0
+  resolution: "eslint-plugin-wc@npm:2.2.0"
   dependencies:
     is-valid-element-name: "npm:^1.0.0"
     js-levenshtein-esm: "npm:^1.2.0"
   peerDependencies:
-    eslint: ">=5"
-  checksum: 10c0/2bfcdcaa8de1f29c90a04b311fe67e651e42a1ea79eee57a4f88dd2c4b519e8bfba961dc9b451f9096927b3f8a61c3a99ea6d61f502774d44ce152ce6ff8ce23
+    eslint: ">=8.40.0"
+  checksum: 10c0/9d3e32337d477a7b7fed15598b582972d9696d2cd84db5bf2a15c89de1d42a704d23b80ff866e8fb40f6b8b34ab4e35eceab436471626498dfdee0dcaeb9f3ac
   languageName: node
   linkType: hard
 
