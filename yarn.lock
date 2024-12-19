@@ -1568,15 +1568,12 @@ __metadata:
     cz-conventional-changelog: "npm:^3.3.0"
     eslint: "npm:^8.52.0"
     eslint-config-airbnb-base: "npm:^15.0.0"
-    eslint-import-resolver-node: "npm:^0.3.9"
-    eslint-plugin-babel: "npm:^5.3.1"
     eslint-plugin-import: "npm:^2.29.0"
     eslint-plugin-import-esm: "npm:^2.0.0"
     eslint-plugin-optimize-regex: "npm:^1.2.1"
     eslint-plugin-promise: "npm:^7.0.0"
     eslint-plugin-sonarjs: "npm:^3.0.0"
     eslint-plugin-unicorn: "npm:^56.0.0"
-    eslint-plugin-wc: "npm:^2.0.4"
     husky: "npm:^9.0.0"
     lint-staged: "npm:^15.0.2"
     npm-run-all2: "npm:^7.0.0"
@@ -3770,17 +3767,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-babel@npm:^5.3.1":
-  version: 5.3.1
-  resolution: "eslint-plugin-babel@npm:5.3.1"
-  dependencies:
-    eslint-rule-composer: "npm:^0.3.0"
-  peerDependencies:
-    eslint: ">=4.0.0"
-  checksum: 10c0/c73e054c3cf3c5392e8ea7e56f41db3859b9d7c0dd347c28a5f08ae87889cc4879fcddfe227ee1ec075a9ab62e34e245d7e6e723180dfa36d07397c2cbb2c1a1
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-import-esm@npm:^2.0.0":
   version: 2.0.0
   resolution: "eslint-plugin-import-esm@npm:2.0.0"
@@ -3887,25 +3873,6 @@ __metadata:
   peerDependencies:
     eslint: ">=8.56.0"
   checksum: 10c0/3b853ecde6ab597b12e28b962ba6ad7d3594f7f066d90135db2d3366ac13361c72500119163e13e1c38ca6fbdd331b1cc31dce9e8673880bff050fe51d6c64db
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-wc@npm:^2.0.4":
-  version: 2.2.0
-  resolution: "eslint-plugin-wc@npm:2.2.0"
-  dependencies:
-    is-valid-element-name: "npm:^1.0.0"
-    js-levenshtein-esm: "npm:^1.2.0"
-  peerDependencies:
-    eslint: ">=8.40.0"
-  checksum: 10c0/9d3e32337d477a7b7fed15598b582972d9696d2cd84db5bf2a15c89de1d42a704d23b80ff866e8fb40f6b8b34ab4e35eceab436471626498dfdee0dcaeb9f3ac
-  languageName: node
-  linkType: hard
-
-"eslint-rule-composer@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "eslint-rule-composer@npm:0.3.0"
-  checksum: 10c0/1f0c40d209e1503a955101a0dbba37e7fc67c8aaa47a5b9ae0b0fcbae7022c86e52b3df2b1b9ffd658e16cd80f31fff92e7222460a44d8251e61d49e0af79a07
   languageName: node
   linkType: hard
 
@@ -5317,13 +5284,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-potential-custom-element-name@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "is-potential-custom-element-name@npm:1.0.1"
-  checksum: 10c0/b73e2f22bc863b0939941d369486d308b43d7aef1f9439705e3582bfccaa4516406865e32c968a35f97a99396dac84e2624e67b0a16b0a15086a785e16ce7db9
-  languageName: node
-  linkType: hard
-
 "is-regex@npm:^1.2.1":
   version: 1.2.1
   resolution: "is-regex@npm:1.2.1"
@@ -5423,15 +5383,6 @@ __metadata:
   version: 0.2.1
   resolution: "is-utf8@npm:0.2.1"
   checksum: 10c0/3ed45e5b4ddfa04ed7e32c63d29c61b980ecd6df74698f45978b8c17a54034943bcbffb6ae243202e799682a66f90fef526f465dd39438745e9fe70794c1ef09
-  languageName: node
-  linkType: hard
-
-"is-valid-element-name@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "is-valid-element-name@npm:1.0.0"
-  dependencies:
-    is-potential-custom-element-name: "npm:^1.0.0"
-  checksum: 10c0/495b769f281e17dbab475351ba494482245f6bdb4e7bc562bdf7da7691cc38024ed3272ab63b180f8bd642a97b0de7c365f810c687376978ba649a2ffad11a6c
   languageName: node
   linkType: hard
 
@@ -5535,13 +5486,6 @@ __metadata:
   bin:
     jiti: lib/jiti-cli.mjs
   checksum: 10c0/3cf67d1b952a9e8cffbb4f96527880da6cdb58a1eae2a6d2deb4645621dfc8b766d21549f71c6153a2094a40bb635ffafed4cd0dd42f3b3263b187d1ee846225
-  languageName: node
-  linkType: hard
-
-"js-levenshtein-esm@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "js-levenshtein-esm@npm:1.2.0"
-  checksum: 10c0/7a6f6f5f911eb90ff266b05914e21c1bb9a9448bf6040e4e40eb0cc886f9d9b6faea74e0da6bec22bbe263a5e81c8215de300365a5e0444fee35ae7d023a3908
   languageName: node
   linkType: hard
 

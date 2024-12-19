@@ -19,7 +19,6 @@
       "automerge": true,
       "automergeType": "branch",
       "matchPackageNames": [
-        "!eslint-import-resolver-node",
         "!eslint-config-{/,}**",
         "!eslint-plugin-{/,}**"
       ]

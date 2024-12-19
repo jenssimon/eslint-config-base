@@ -21,7 +21,7 @@ Additionally:
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn#readme)
 - [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs#readme)
 - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise#readme)
-- [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments#readme)
+- [eslint-plugin-eslint-comments](https://eslint-community.github.io/eslint-plugin-eslint-comments/)
 
 > **Note**
 >
@@ -52,21 +52,9 @@ Suitable for server side Node.js code. Based on [eslint-config-airbnb-base](http
 }
 ```
 
-### Frontend Standard
-
-Standard rules for frontend code (without React/JSX). Enforces ES2015+ code without jQuery. Based on [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base#readme).
-
-```json
-{
-  "extends": [
-    "@jenssimon/base/frontend"
-  ]
-}
-```
-
 ## License
 
-MIT © 2023 [Jens Simon](https://github.com/jenssimon)
+MIT © 2019 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/@jenssimon/eslint-config-base
 [npm-image]: https://badgen.net/npm/v/@jenssimon/eslint-config-base
