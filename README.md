@@ -76,18 +76,6 @@ Rules for frontend code that uses Lit. Like the standard frontend rules it enfor
 }
 ```
 
-### Frontend React
-
-Rules for frontend code that typically uses React. Like the standard frontend rules it enforces ES2015+ code. Based on [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb#readme).
-
-```json
-{
-  "extends": [
-    "@jenssimon/base/frontend-react"
-  ]
-}
-```
-
 ## License
 
 MIT © 2023 [Jens Simon](https://github.com/jenssimon)
