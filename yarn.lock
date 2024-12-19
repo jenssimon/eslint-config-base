@@ -1572,7 +1572,6 @@ __metadata:
     eslint-plugin-babel: "npm:^5.3.1"
     eslint-plugin-import: "npm:^2.29.0"
     eslint-plugin-import-esm: "npm:^2.0.0"
-    eslint-plugin-lit: "npm:^1.9.1"
     eslint-plugin-optimize-regex: "npm:^1.2.1"
     eslint-plugin-promise: "npm:^7.0.0"
     eslint-plugin-sonarjs: "npm:^3.0.0"
@@ -3817,19 +3816,6 @@ __metadata:
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9
   checksum: 10c0/e21d116ddd1900e091ad120b3eb68c5dd5437fe2c930f1211781cd38b246f090a6b74d5f3800b8255a0ed29782591521ad44eb21c5534960a8f1fb4040fd913a
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-lit@npm:^1.9.1":
-  version: 1.15.0
-  resolution: "eslint-plugin-lit@npm:1.15.0"
-  dependencies:
-    parse5: "npm:^6.0.1"
-    parse5-htmlparser2-tree-adapter: "npm:^6.0.1"
-    requireindex: "npm:^1.2.0"
-  peerDependencies:
-    eslint: ">= 5"
-  checksum: 10c0/243ce44e9923c343760b2ca21bfc67cc3857b93ef2dd2dac06ca3e894d6fa1fbf50ab1aaec0278ef5c53b3a47fc9145d1dcd4791650e2cabdba89874457e99b4
   languageName: node
   linkType: hard
 
@@ -7212,7 +7198,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse5-htmlparser2-tree-adapter@npm:^6.0.0, parse5-htmlparser2-tree-adapter@npm:^6.0.1":
+"parse5-htmlparser2-tree-adapter@npm:^6.0.0":
   version: 6.0.1
   resolution: "parse5-htmlparser2-tree-adapter@npm:6.0.1"
   dependencies:
@@ -7752,13 +7738,6 @@ __metadata:
   version: 2.0.2
   resolution: "require-from-string@npm:2.0.2"
   checksum: 10c0/aaa267e0c5b022fc5fd4eef49d8285086b15f2a1c54b28240fdf03599cbd9c26049fee3eab894f2e1f6ca65e513b030a7c264201e3f005601e80c49fb2937ce2
-  languageName: node
-  linkType: hard
-
-"requireindex@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "requireindex@npm:1.2.0"
-  checksum: 10c0/7fb42aed73bf8de9acc4d6716cf07acc7fbe180e58729433bafcf702e76e7bb10e54f8266c06bfec62d752e0ac14d50e8758833de539e6f4e2cd642077866153
   languageName: node
   linkType: hard
 
