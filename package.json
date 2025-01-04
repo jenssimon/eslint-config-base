@@ -1,7 +1,7 @@
 {
   "name": "@jenssimon/eslint-config-base",
   "version": "0.0.0-development",
-  "description": "A collection of shareable ESLint configurations",
+  "description": "A shareable ESLint configurations",
   "main": "index.js",
   "author": "Jens Simon <https://github.com/jenssimon>",
   "keywords": [
