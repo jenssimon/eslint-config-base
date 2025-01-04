@@ -55,22 +55,6 @@ module.exports = {
     'promise/prefer-await-to-then': 'error',
     'promise/prefer-await-to-callbacks': 'error',
 
-    // disabled rules needs some check in the future
-    'unicorn/catch-error-name': 'off',
-    'unicorn/consistent-function-scoping': 'off',
-    'unicorn/filename-case': 'off',
-    'unicorn/no-array-for-each': 'off',
-    'unicorn/no-null': 'off',
-    'unicorn/no-useless-undefined': 'off',
-    'unicorn/prefer-query-selector': 'off',
-    'unicorn/prevent-abbreviations': 'off',
-
-    // disabled rules for unicorn by usage in projects, needs check too
-    'unicorn/no-array-reduce': 'off',
-    'unicorn/no-for-loop': 'off',
-    'unicorn/numeric-separators-style': 'off',
-    'unicorn/prefer-export-from': 'off',
-
     semi: ['error', 'never'],
 
     'import/no-extraneous-dependencies': [
