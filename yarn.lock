@@ -472,7 +472,7 @@ __metadata:
     eslint: "npm:^9.18.0"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-plugin-import: "npm:^2.29.0"
-    eslint-plugin-import-esm: "npm:^2.0.0"
+    eslint-plugin-import-esm: "npm:^3.0.0"
     eslint-plugin-optimize-regex: "npm:^1.2.1"
     eslint-plugin-promise: "npm:^7.0.0"
     eslint-plugin-sonarjs: "npm:^3.0.0"
@@ -2768,12 +2768,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import-esm@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "eslint-plugin-import-esm@npm:2.0.0"
+"eslint-plugin-import-esm@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "eslint-plugin-import-esm@npm:3.0.1"
   peerDependencies:
-    eslint: ">=7"
-  checksum: 10c0/78165978b05cf1becfd2f3c8555dd6afcf29049d0d1c9c6668aee21abcb48afaa6b97d7df3e671e19ee82a61dba78cce46cdc907704bc1bf76ea72903a16fd12
+    eslint: ">=9"
+  checksum: 10c0/0ae06e2bdcf9b80d95a4add3b70dfa3cd3c57936338b9a7acd6acf020a49bf7583099830d37c76dc8fa3c3efd38bd64d609c8c57db7c15daf2a9e5d2186e3ae8
   languageName: node
   linkType: hard
 
