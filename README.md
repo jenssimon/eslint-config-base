@@ -2,17 +2,21 @@
 
 # eslint-config-base
 
-> A collection of shareable ESLint configurations for both client and server side code
+> A shared ESLint configuration
 
 ## Installation
 
 ```sh
-yarn add @jenssimon/eslint-config-base --dev
+yarn add --dev @jenssimon/eslint-config-base
+```
+
+```sh
+npm install @jenssimon/eslint-config-base --save-dev
 ```
 
 ## General
 
-All configurations are based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#readme).
+Based on the [ESLint AirBnB Extended](https://eslint-airbnb-extended.nishargshah.dev/).
 
 Additionally:
 
@@ -25,31 +29,36 @@ Additionally:
 
 > **Note**
 >
-> If you don't trust ASI and still want to use semicolons:
+> This configuration is flat config only.
 >
-> ```json
-> {
->   "extends": [
->     "@jenssimon/base",
->   ]
->   "rules": {
->     "semi": ["error", "always"]
->   }
-> }
-> ```
+> If you need `eslintrc` support please use a version < 9 of this lint configuration.
 
-## Configurations
+## Configuration
 
-### Base configuration
+```js
+import path from 'node:path'
 
-Suitable for server side Node.js code. Based on [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base#eslint-config-airbnb-base).
+import { includeIgnoreFile } from '@eslint/compat'
 
-```json
-{
-  "extends": [
-    "@jenssimon/base"
-  ]
-}
+import { configs } from '@jenssimon/eslint-config-base'
+
+
+const gitignorePath = path.resolve('.', '.gitignore')
+
+
+export default [
+  includeIgnoreFile(gitignorePath),
+  {
+    ignores: [
+      '.yarn/',
+    ],
+  },
+
+  ...configs.base,
+
+  // for Node.js environments
+  ...configs.node,
+]
 ```
 
 ## License
