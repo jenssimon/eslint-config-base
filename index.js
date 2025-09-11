@@ -62,7 +62,6 @@ export const configs = {
         ],
 
         'linebreak-style': 'off',
-        'max-len': ['error', 120],
         'no-nested-ternary': 'off', // important for usage with unicorn/no-nested-ternary
         'no-param-reassign': ['error', { props: false }],
         'no-plusplus': 'off',
