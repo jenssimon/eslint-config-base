@@ -2460,24 +2460,24 @@ __metadata:
   linkType: hard
 
 "eslint-config-airbnb-extended@npm:^2.3.0":
-  version: 2.3.1
-  resolution: "eslint-config-airbnb-extended@npm:2.3.1"
+  version: 2.3.2
+  resolution: "eslint-config-airbnb-extended@npm:2.3.2"
   dependencies:
     confusing-browser-globals: "npm:^1.0.11"
     globals: "npm:^16.4.0"
   peerDependencies:
-    "@next/eslint-plugin-next": 15.x
-    "@stylistic/eslint-plugin": 3.x
-    "@types/eslint-plugin-jsx-a11y": 6.x
-    eslint: 9.x
-    eslint-import-resolver-typescript: 4.x
-    eslint-plugin-import: 2.x
-    eslint-plugin-import-x: 4.x
-    eslint-plugin-jsx-a11y: 6.x
-    eslint-plugin-n: 17.x
-    eslint-plugin-react: 7.x
-    eslint-plugin-react-hooks: 5.x
-    typescript-eslint: 8.x
+    "@next/eslint-plugin-next": ^15.0.0
+    "@stylistic/eslint-plugin": ^3.0.0
+    "@types/eslint-plugin-jsx-a11y": ^6.0.0
+    eslint: ^9.0.0
+    eslint-import-resolver-typescript: ^4.0.0
+    eslint-plugin-import: ^2.0.0
+    eslint-plugin-import-x: ^4.0.0
+    eslint-plugin-jsx-a11y: ^6.0.0
+    eslint-plugin-n: ^17.0.0
+    eslint-plugin-react: ^7.0.0
+    eslint-plugin-react-hooks: ^5.0.0 || ^6.0.0 || ^7.0.0
+    typescript-eslint: ^8.0.0
   peerDependenciesMeta:
     "@next/eslint-plugin-next":
       optional: true
@@ -2503,7 +2503,7 @@ __metadata:
       optional: true
     typescript-eslint:
       optional: true
-  checksum: 10c0/98ae80a4cdd0b8e688fd00668b949b34c16ce49e8efea4397b836d57463db2fe014a1fe37cc90d2d6b83482a22b5860f435020ffd2b6d2b8cd20ec8afed86d52
+  checksum: 10c0/850318d9c95331eb3c9c0bdc9c9f50082e4eb122fa22106b642d97b94ea98018b83d93d431207981140798b1ae1da192b70900792ec8843b99d780af00ee70d4
   languageName: node
   linkType: hard
 
