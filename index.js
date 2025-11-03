@@ -61,16 +61,26 @@ export const configs = {
         '@stylistic/max-len': ['error', 120],
         '@stylistic/member-delimiter-style': ['error', {
           multiline: {
-            delimiter: 'none',
+            delimiter: 'comma',
             requireLast: true,
           },
           singleline: {
+            delimiter: 'comma',
             requireLast: false,
           },
           multilineDetection: 'brackets',
         }],
         '@stylistic/no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0, maxBOF: 0 }],
         '@stylistic/semi': ['error', 'never'],
+
+        'import-x/no-extraneous-dependencies': [
+          'error',
+          {
+            devDependencies: true,
+            optionalDependencies: false,
+            peerDependencies: false,
+          },
+        ],
       },
     },
   ],
