@@ -14,11 +14,14 @@ yarn add --dev @jenssimon/eslint-config-base
 npm install @jenssimon/eslint-config-base --save-dev
 ```
 
+Afterwards install all the required `peerDependencies`.
+
 ## General
 
-Based on the [ESLint AirBnB Extended](https://eslint-airbnb-extended.nishargshah.dev/).
+This configuration depends on the [ESLint AirBnB Extended](https://eslint-airbnb-extended.nishargshah.dev/).
+It provides a shared configuration to manage standard code style and best practices at a central location.
 
-Additionally:
+Features:
 
 - line length 120 characters
 - no semicolons
@@ -35,18 +38,30 @@ Additionally:
 
 ## Configuration
 
+For setup of `eslint-airbnb-extended` see the [instructions](https://eslint-airbnb-extended.nishargshah.dev/config/installation) first.
+
 ```js
 import path from 'node:path'
 
+import { defineConfig } from 'eslint/config'
+import js from '@eslint/js'
 import { includeIgnoreFile } from '@eslint/compat'
 
-import { configs } from '@jenssimon/eslint-config-base'
+import { configs, plugins } from 'eslint-config-airbnb-extended'
+
+import { configs as eslintConfigs } from './index.js'
 
 
 const gitignorePath = path.resolve('.', '.gitignore')
 
 
-export default [
+// configuration for `eslint-config-airbnb-extended`
+const jsConfig = [
+  // ...
+]
+
+
+export default defineConfig(
   includeIgnoreFile(gitignorePath),
   {
     ignores: [
@@ -54,11 +69,13 @@ export default [
     ],
   },
 
-  ...configs.base,
+  // configuration for `eslint-config-airbnb-extended`
+  jsConfig,
+  nodeConfig,
+  // ...
 
-  // for Node.js environments
-  ...configs.node,
-]
+  eslintConfigs.base,
+)
 ```
 
 ## License

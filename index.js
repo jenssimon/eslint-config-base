@@ -1,5 +1,3 @@
-import js from '@eslint/js'
-import { configs as airbnbConfigs, plugins } from 'eslint-config-airbnb-extended'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import sonarjs from 'eslint-plugin-sonarjs'
 import pluginPromise from 'eslint-plugin-promise'
@@ -8,25 +6,11 @@ import comments from '@eslint-community/eslint-plugin-eslint-comments/configs'
 
 
 const jsConfig = [
-  {
-    name: 'js/config',
-    ...js.configs.recommended,
-  },
-  plugins.stylistic,
-  plugins.importX,
-  ...airbnbConfigs.base.recommended,
-
   eslintPluginUnicorn.configs.recommended,
   sonarjs.configs.recommended,
   pluginPromise.configs['flat/recommended'],
   ...importEsmPlugin.configs.recommended,
   comments.recommended,
-]
-
-
-const nodeConfig = [
-  plugins.node,
-  ...airbnbConfigs.node.recommended,
 ]
 
 
@@ -44,7 +28,7 @@ export const configs = {
         'func-names': 'off',
 
         'import-x/extensions': 'off',
-        'import-x/no-unresolved': 'off',
+        // 'import-x/no-unresolved': 'off',
         'import-x/order': [
           'error', {
             groups: [
@@ -62,7 +46,7 @@ export const configs = {
         ],
 
         'linebreak-style': 'off',
-        'no-nested-ternary': 'off', // important for usage with unicorn/no-nested-ternary
+        // 'no-nested-ternary': 'off', // important for usage with unicorn/no-nested-ternary
         'no-param-reassign': ['error', { props: false }],
         'no-plusplus': 'off',
         'no-use-before-define': ['error', { functions: false }],
@@ -78,19 +62,7 @@ export const configs = {
         '@stylistic/max-len': ['error', 120],
         '@stylistic/no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0, maxBOF: 0 }],
         '@stylistic/semi': ['error', 'never'],
-
-        'import-x/no-extraneous-dependencies': [
-          'error',
-          {
-            devDependencies: true,
-            optionalDependencies: false,
-            peerDependencies: false,
-          },
-        ],
       },
     },
-  ],
-  node: [
-    ...nodeConfig,
   ],
 }
