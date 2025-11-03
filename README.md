@@ -49,7 +49,7 @@ import { includeIgnoreFile } from '@eslint/compat'
 
 import { configs, plugins } from 'eslint-config-airbnb-extended'
 
-import { configs as eslintConfigs } from './index.js'
+import { configs as eslintConfigs } from '@jenssimon/eslint-config-base'
 
 
 const gitignorePath = path.resolve('.', '.gitignore')

@@ -28,7 +28,6 @@ export const configs = {
         'func-names': 'off',
 
         'import-x/extensions': 'off',
-        // 'import-x/no-unresolved': 'off',
         'import-x/order': [
           'error', {
             groups: [
@@ -60,6 +59,16 @@ export const configs = {
         'promise/prefer-await-to-callbacks': 'error',
 
         '@stylistic/max-len': ['error', 120],
+        '@stylistic/member-delimiter-style': ['error', {
+          multiline: {
+            delimiter: 'none',
+            requireLast: true,
+          },
+          singleline: {
+            requireLast: false,
+          },
+          multilineDetection: 'brackets',
+        }],
         '@stylistic/no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0, maxBOF: 0 }],
         '@stylistic/semi': ['error', 'never'],
       },
