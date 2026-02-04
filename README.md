@@ -34,7 +34,7 @@ Features:
 >
 > This configuration is flat config only.
 >
-> If you need `eslintrc` support please use a version < 9 of this lint configuration.
+> If you need `.eslintrc` support please use a version < 9 of this lint configuration.
 
 ## Configuration
 

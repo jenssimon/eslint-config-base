@@ -493,7 +493,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-plugin-eslint-comments@npm:^4.5.0":
+"@eslint-community/eslint-plugin-eslint-comments@npm:^4.6.0":
   version: 4.6.0
   resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:4.6.0"
   dependencies:
@@ -692,29 +692,24 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^20.0.0"
     "@commitlint/config-conventional": "npm:^20.0.0"
-    "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.5.0"
+    "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.6.0"
     "@eslint/compat": "npm:^2.0.0"
     "@eslint/js": "npm:^9.35.0"
     commitizen: "npm:^4.3.0"
     cz-conventional-changelog: "npm:^3.3.0"
     eslint: "npm:^9.35.0"
-    eslint-config-airbnb-extended: "npm:^3.0.0"
+    eslint-config-airbnb-extended: "npm:^3.0.1"
     eslint-plugin-import-esm: "npm:^3.0.1"
     eslint-plugin-promise: "npm:^7.2.1"
-    eslint-plugin-sonarjs: "npm:^3.0.5"
+    eslint-plugin-sonarjs: "npm:^3.0.6"
     eslint-plugin-unicorn: "npm:^62.0.0"
     husky: "npm:^9.0.0"
     lint-staged: "npm:^16.0.0"
     pinst: "npm:^3.0.0"
     semantic-release: "npm:^25.0.0"
   peerDependencies:
-    "@eslint-community/eslint-plugin-eslint-comments": ">= 4"
     eslint: ">= 9"
-    eslint-config-airbnb-extended: ">= 2"
-    eslint-plugin-import-esm: ">= 3"
-    eslint-plugin-promise: ">= 7"
-    eslint-plugin-sonarjs: ">= 3"
-    eslint-plugin-unicorn: ">= 62"
+    eslint-config-airbnb-extended: ">= 3"
   languageName: unknown
   linkType: soft
 
@@ -3211,7 +3206,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-extended@npm:^3.0.0":
+"eslint-config-airbnb-extended@npm:^3.0.1":
   version: 3.0.1
   resolution: "eslint-config-airbnb-extended@npm:3.0.1"
   dependencies:
@@ -3473,7 +3468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:^3.0.5":
+"eslint-plugin-sonarjs@npm:^3.0.6":
   version: 3.0.6
   resolution: "eslint-plugin-sonarjs@npm:3.0.6"
   dependencies:
