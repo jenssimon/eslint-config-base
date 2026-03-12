@@ -35,6 +35,8 @@ export const configs = {
               jsx: 'always',
               mjs: 'always',
               mjsx: 'always',
+              ts: 'never',
+              tsx: 'never',
             },
             extensionAlias: {
               '.js': ['.ts', '.tsx'],
