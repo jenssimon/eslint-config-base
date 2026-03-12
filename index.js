@@ -1,7 +1,6 @@
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import sonarjs from 'eslint-plugin-sonarjs'
 import pluginPromise from 'eslint-plugin-promise'
-import importEsmPlugin from 'eslint-plugin-import-esm'
 import comments from '@eslint-community/eslint-plugin-eslint-comments/configs'
 
 
@@ -9,7 +8,6 @@ const jsConfig = [
   eslintPluginUnicorn.configs.recommended,
   sonarjs.configs.recommended,
   pluginPromise.configs['flat/recommended'],
-  ...importEsmPlugin.configs.recommended,
   comments.recommended,
 ]
 
@@ -27,7 +25,23 @@ export const configs = {
 
         'func-names': 'off',
 
-        'import-x/extensions': 'off',
+        'import-x/extensions': [
+          'error',
+          'always',
+          {
+            ignorePackages: true,
+            pattern: {
+              js: 'always',
+              jsx: 'always',
+              mjs: 'always',
+              mjsx: 'always',
+            },
+            extensionAlias: {
+              '.js': ['.ts', '.tsx'],
+              '.jsx': ['.tsx'],
+            },
+          },
+        ],
         'import-x/order': [
           'error', {
             groups: [

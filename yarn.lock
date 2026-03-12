@@ -699,7 +699,6 @@ __metadata:
     cz-conventional-changelog: "npm:^3.3.0"
     eslint: "npm:^9.35.0"
     eslint-config-airbnb-extended: "npm:^3.0.1"
-    eslint-plugin-import-esm: "npm:^3.0.1"
     eslint-plugin-promise: "npm:^7.2.1"
     eslint-plugin-sonarjs: "npm:^4.0.0"
     eslint-plugin-unicorn: "npm:^63.0.0"
@@ -3364,15 +3363,6 @@ __metadata:
   peerDependencies:
     eslint: ">=8"
   checksum: 10c0/002fda8c029bc5da41e24e7ac11654062831d675fc4f5f20d0de460e24bf1e05cd559000678ef3e46c48641190f4fc07ae3d57aa5e8b085ef5f67e5f63742614
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-import-esm@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "eslint-plugin-import-esm@npm:3.0.1"
-  peerDependencies:
-    eslint: ">=9"
-  checksum: 10c0/0ae06e2bdcf9b80d95a4add3b70dfa3cd3c57936338b9a7acd6acf020a49bf7583099830d37c76dc8fa3c3efd38bd64d609c8c57db7c15daf2a9e5d2186e3ae8
   languageName: node
   linkType: hard
 
