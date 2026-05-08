@@ -35,8 +35,8 @@
     "eslint-plugin-unicorn": "^64.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.0.0",
-    "@commitlint/config-conventional": "^20.0.0",
+    "@commitlint/cli": "^21.0.0",
+    "@commitlint/config-conventional": "^21.0.0",
     "@eslint/compat": "^2.0.0",
     "@eslint/js": "^10.0.0",
     "commitizen": "^4.3.0",
