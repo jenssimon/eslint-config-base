@@ -1,8 +1,7 @@
 import path from 'node:path'
 
-import { defineConfig } from 'eslint/config'
+import { defineConfig, includeIgnoreFile } from 'eslint/config'
 import js from '@eslint/js'
-import { includeIgnoreFile } from '@eslint/compat'
 
 import { configs, plugins } from 'eslint-config-airbnb-extended'
 
@@ -28,6 +27,7 @@ const nodeConfig = [
 ]
 
 
+// eslint-disable-next-line unicorn/no-top-level-side-effects
 export default defineConfig(
   includeIgnoreFile(gitignorePath),
   {
