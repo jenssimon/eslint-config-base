@@ -27,7 +27,6 @@ const nodeConfig = [
 ]
 
 
-// eslint-disable-next-line unicorn/no-top-level-side-effects
 export default defineConfig(
   includeIgnoreFile(gitignorePath),
   {

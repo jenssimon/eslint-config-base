@@ -38,10 +38,6 @@ export const configs = {
               ts: 'never',
               tsx: 'never',
             },
-            extensionAlias: {
-              '.js': ['.ts', '.tsx'],
-              '.jsx': ['.tsx'],
-            },
           },
         ],
         'import-x/order': [
